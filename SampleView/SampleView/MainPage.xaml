@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height ="1*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+                <RowDefinition Height =".5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="2*"/>
+                <ColumnDefinition Width ="2*"/>
+                <ColumnDefinition Width ="2*"/>
+                <ColumnDefinition Width ="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand" FontSize="Large"
+                   Text="Version Information"/>
+            <Label Text="Software" FontSize="Medium"                   
+                   Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="2" />
+
+            <Label Text="Minion" FontSize="Small" 
+                   Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="OverLord" FontSize="Small" 
+                   Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="Updater App" FontSize="Small" 
+                   Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="WisKeyboard App" FontSize="Small" 
+                   Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="1" />
+
+
+            <Label Text="1.9.1.0611" FontSize="Small" 
+                   Grid.Row="2" Grid.Column="1"/>
+            <Label Text="1.9.1.0611" FontSize="Small" 
+                   Grid.Row="3" Grid.Column="1"  Grid.ColumnSpan="1" />
+            <Label Text="1.8.12.0312" FontSize="Small" 
+                   Grid.Row="4" Grid.Column="1"  Grid.ColumnSpan="1" />
+            <Label Text="1.8.16.0427" FontSize="Small" 
+                   Grid.Row="5" Grid.Column="1"  Grid.ColumnSpan="1" />
+
+
+            <Label Text="Operating System" FontSize="Medium"                   
+                   Grid.Row="6" Grid.Column="0"  Grid.ColumnSpan="2" />
+
+            <Label Text="Wand" FontSize="Small" 
+                   Grid.Row="7" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="KL04" FontSize="Small" 
+                   Grid.Row="8" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="Popup App" FontSize="Small" 
+                   Grid.Row="9" Grid.Column="0"  Grid.ColumnSpan="1" />
+            <Label Text="Wand Stack" FontSize="Small" 
+                   Grid.Row="10" Grid.Column="0"  Grid.ColumnSpan="1" />
+
+
+            <Label Text="2020-01-10" FontSize="Small" 
+                   Grid.Row="7" Grid.Column="1"/>
+            <Label Text="2020-02-12" FontSize="Small" 
+                   Grid.Row="8" Grid.Column="1"  Grid.ColumnSpan="1" />
+            <Label Text="2020-02-13" FontSize="Small" 
+                   Grid.Row="9" Grid.Column="1"  Grid.ColumnSpan="1" />
+            <Label Text="4" FontSize="Small" 
+                   Grid.Row="10" Grid.Column="1"  Grid.ColumnSpan="1" />
+
+
+            <Label Text="Scanner Config" FontSize="Small" 
+                   Grid.Row="7" Grid.Column="2"  Grid.ColumnSpan="1" />
+            <Label Text="API Version" FontSize="Small" 
+                   Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="1" />
+            <Label Text="Scanner App" FontSize="Small" 
+                   Grid.Row="9" Grid.Column="2"  Grid.ColumnSpan="1" />
+            <Label Text="KL04 BootLoader" FontSize="Small" 
+                   Grid.Row="10" Grid.Column="2"  Grid.ColumnSpan="1" />
+
+
+            <Label Text="Modified" FontSize="Small" 
+                   Grid.Row="7" Grid.Column="3"/>
+            <Label Text="2020-02-13" FontSize="Small" 
+                   Grid.Row="8" Grid.Column="3"  Grid.ColumnSpan="1" />
+            <Label Text="2019-11-25" FontSize="Small" 
+                   Grid.Row="9" Grid.Column="3"  Grid.ColumnSpan="1" />
+            <Label Text="2" FontSize="Small" 
+                   Grid.Row="10" Grid.Column="3"  Grid.ColumnSpan="1" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
+ 
